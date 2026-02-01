@@ -7,13 +7,13 @@ A comprehensive image processing application that converts regular document phot
 
 ---
 
-## 📱 Overview
+## Overview
 
 This project provides a user-friendly web application for converting document images into high-quality scanned documents. The application uses advanced computer vision algorithms to automatically detect document boundaries, correct perspective distortion, and enhance text clarity. It supports both individual downloads and batch processing with multiple export formats.
 
 ---
 
-## 🎯 Features Demonstrated
+## Features Demonstrated
 
 ### Document Processing Techniques
 - **Edge Detection** - Multiple methods (Canny, adaptive thresholding, morphological gradient, Sobel) for robust contour detection
@@ -32,7 +32,7 @@ This project provides a user-friendly web application for converting document im
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 Document_Scanner/
@@ -49,7 +49,7 @@ Document_Scanner/
 
 ---
 
-## ⚙️ Technical Requirements
+## Technical Requirements
 
 - **Python:** 3.7+
 - **OpenCV (cv2):** 4.5+
@@ -60,7 +60,7 @@ Document_Scanner/
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone/Download the Project
 ```bash
@@ -86,7 +86,7 @@ The application will open in your default browser at `http://localhost:8501`
 
 ---
 
-## 💻 Usage Guide
+## Usage Guide
 
 ### Web Application (Streamlit)
 1. **Launch** - Run the command above to start the web app
@@ -103,7 +103,7 @@ The application will open in your default browser at `http://localhost:8501`
 
 ---
 
-## 🧪 Testing & Demonstration
+## Testing & Demonstration
 
 ### Test Images Included
 Sample images are provided in the `test/` folder for quick testing:
@@ -143,7 +143,7 @@ Final test sample demonstrating comprehensive processing capabilities.
 
 ---
 
-## 🔧 Core Algorithm Details
+## Core Algorithm Details
 
 ### Key Computer Vision Concepts
 
@@ -169,7 +169,7 @@ Final test sample demonstrating comprehensive processing capabilities.
 
 ---
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 - **Processing Speed:** 2-5 seconds per image (depends on image size and complexity)
 - **Supported Image Sizes:** Up to 4K resolution (4096x2160)
@@ -178,7 +178,7 @@ Final test sample demonstrating comprehensive processing capabilities.
 
 ---
 
-## ✨ Output Quality
+## Output Quality
 
 All scanned documents maintain:
 - ✅ Original text content and formatting
@@ -189,7 +189,7 @@ All scanned documents maintain:
 
 ---
 
-## 📝 Verification Checklist
+## Verification Checklist
 
 - ✅ Web application launches without errors
 - ✅ Image upload functionality works correctly
@@ -203,7 +203,7 @@ All scanned documents maintain:
 
 ---
 
-## 🔐 File Format Support
+## File Format Support
 
 ### Supported Input Formats
 - `.jpg` / `.jpeg` - Standard JPEG images
@@ -218,7 +218,7 @@ All scanned documents maintain:
 
 ---
 
-## 📋 Development Notes
+## Development Notes
 
 ### Code Architecture
 - **Modular Design** - Separate functions for detection, transformation, and enhancement
@@ -234,7 +234,7 @@ All scanned documents maintain:
 
 ---
 
-## 🎓 Educational Value
+## Educational Value
 
 This project demonstrates:
 - Computer vision fundamentals for document processing
@@ -246,7 +246,7 @@ This project demonstrates:
 
 ---
 
-## 📄 License
+## License
 
 Educational project - For learning and demonstration purposes.
 
@@ -258,23 +258,23 @@ Educational project - For learning and demonstration purposes.
 - **NumPy**: 1.19+
 - **Pillow**: 8.0+
 
-## 💡 Tips for Best Results
+## Tips for Best Results
 
-### 📱 Photography Tips
+### Photography Tips
 - **Positioning**: Hold camera directly above the document
 - **Lighting**: Use even, diffuse lighting without harsh shadows
 - **Background**: Choose a contrasting background color
 - **Focus**: Ensure the entire document is in focus
 - **Stability**: Keep camera steady to avoid motion blur
 
-### 📄 Document Preparation
+### Document Preparation
 - **Flatness**: Lay documents completely flat
 - **Corners**: Ensure all four corners are visible
 - **Coverage**: Fill 50-80% of the frame
 - **Surface**: Avoid glossy paper that causes reflections
 - **Size**: Minimum document size should be 2x2 inches
 
-### 🔧 Troubleshooting
+### Troubleshooting
 If detection fails:
 - Try different lighting conditions
 - Adjust camera angle
@@ -282,7 +282,7 @@ If detection fails:
 - Use a plain background
 - Ensure good contrast between document and background
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -292,7 +292,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
